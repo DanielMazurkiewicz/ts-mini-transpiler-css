@@ -1,0 +1,33 @@
+{
+  "name": "ts-mini-transpiler-css",
+  "version": "0.0.1",
+  "description": "CSS transpiler for ts-mini",
+  "main": "transpiler.ts",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMazurkiewicz/ts-mini-transpiler-css.git"
+  },
+  "keywords": [
+    "ts-mini",
+    "css",
+    "transpiler",
+    "tss"
+  ],
+  "author": "Daniel Mazurkiewicz <daniel.mazurkiewicz.dm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielMazurkiewicz/ts-mini-transpiler-css/issues"
+  },
+  "homepage": "https://github.com/DanielMazurkiewicz/ts-mini-transpiler-css#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.7",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/css": "^0.0.31",
+    "css": "^2.2.4"
+  }
+}

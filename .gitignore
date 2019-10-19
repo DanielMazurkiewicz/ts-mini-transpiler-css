@@ -59,3 +59,15 @@ typings/
 
 # next.js build output
 .next
+
+# package lock
+package-lock.json
+
+# cache
+.cache/
+
+# test builds
+test/dst/
+
+# yarn lock
+yarn.lock
