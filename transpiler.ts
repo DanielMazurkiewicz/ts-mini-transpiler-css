@@ -107,8 +107,7 @@ const stage3 = (collections: Record<string, ICollection>) => {
 
 // COMPILATION
 
-
-const prepareString = (text: string) => '`' + text.replace(/\$/g, '\\$').replace(/\`/g, '\\`') + '`';
+const prepareString = (text: string) => '`' + text.replace(/\\/g, '\\\\').replace(/\$/g, '\\$').replace(/\`/g, '\\`') + '`';
 
 const getPropertyName = (prop: string, pad: number = 0) => (prop + ':').padEnd(pad);
 

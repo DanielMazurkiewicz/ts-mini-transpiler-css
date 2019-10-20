@@ -1,6 +1,6 @@
 {
   "name": "ts-mini-transpiler-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CSS transpiler for ts-mini",
   "main": "transpiler.ts",
   "scripts": {
